@@ -1,9 +1,30 @@
 [
   {
-    "id": "xxexample.fhir.uv.myig",
+    "id": "food-allergy",
     "type": "ImplementationGuide",
-    "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+    "url": "http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy",
     "version": "0.1.0-test",
-    "name": "XXYourComputableMyIGNameHere"
+    "name": "FoodAllergyIG"
+  },
+  {
+    "id": "FoodAllergy",
+    "type": "StructureDefinition",
+    "url": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy",
+    "version": "0.1.0-test",
+    "name": "FoodAllergy"
+  },
+  {
+    "id": "FoodAllergyModel",
+    "type": "StructureDefinition",
+    "url": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergyModel",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyModel"
+  },
+  {
+    "id": "FoodAllergyVS",
+    "type": "ValueSet",
+    "url": "http://somewhere.org/fhir/myig/ValueSet/FoodAllergyVS",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyVS"
   }
 ]

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="xxexample.fhir.uv.myig"/>
+  <id value="food-allergy"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>
 </div></div>
   </text>
-  <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
+  <url value="http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy"/>
   <version value="0.1.0-test"/>
-  <name value="XXYourComputableMyIGNameHere"/>
-  <title value="xxYour User Friendly Name for MyIG Here"/>
+  <name value="FoodAllergyIG"/>
+  <title value="Food Allergy Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-07-26T22:14:03+00:00"/>
-  <publisher value="xxxYour Work Group"/>
+  <date value="2021-07-26T22:45:56+00:00"/>
+  <publisher value="Quality of Life Workgroup"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://xxhl7.org/Special/committees/[something]"/>
+      <value value="http://example.org/committees/qualityoflife"/>
     </telecom>
   </contact>
-  <description value="xxxA brief description of what this IG is about "/>
+  <description value="An Implementation Guide for Food Allergy reporting and exchange"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="xxexample.fhir.uv.myig"/>
+  <packageId value="example.fhir.uv.food-allergy"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://xxsomewhere.org/fhir/myig/history.html"/>
+        <valueString value="http://somewhere.org/fhir/myig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -207,6 +207,46 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/FoodAllergyModel"/>
+      </reference>
+      <name value="Food Allergy Logical Model"/>
+      <description value="Food Allergy information model"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/FoodAllergyVS"/>
+      </reference>
+      <name value="Food Allergies"/>
+      <description value="Main Food allergies."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/FoodAllergy"/>
+      </reference>
+      <name value="Food Allergy"/>
+      <description value="Food Allergy profile"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AllergyIntolerance"/>
+      </extension>
+      <reference>
+        <reference value="AllergyIntolerance/MyPeanutAllergy"/>
+      </reference>
+      <name value="Example AllergyIntolerance - MyPeanutAllergy"/>
+      <exampleCanonical value="http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
@@ -215,6 +255,11 @@
         <nameUrl value="index.html"/>
         <title value="MyIG Home Page"/>
         <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="intro.html"/>
+        <title value="Food Allergy - Introduction"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="changes.html"/>

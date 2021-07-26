@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxexample.fhir.uv.myig",
+  "id": "food-allergy",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>\n</div></div>"
   },
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+  "url": "http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy",
   "version": "0.1.0-test",
-  "name": "XXYourComputableMyIGNameHere",
-  "title": "xxYour User Friendly Name for MyIG Here",
+  "name": "FoodAllergyIG",
+  "title": "Food Allergy Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-26T22:14:03+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2021-07-26T22:45:56+00:00",
+  "publisher": "Quality of Life Workgroup",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "http://xxhl7.org/Special/committees/[something]"
+          "value": "http://example.org/committees/qualityoflife"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "An Implementation Guide for Food Allergy reporting and exchange",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "xxexample.fhir.uv.myig",
+  "packageId": "example.fhir.uv.food-allergy",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://xxsomewhere.org/fhir/myig/history.html"
+            "valueString": "http://somewhere.org/fhir/myig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -328,6 +328,60 @@
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/FoodAllergyModel"
+        },
+        "name": "Food Allergy Logical Model",
+        "description": "Food Allergy information model"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/FoodAllergyVS"
+        },
+        "name": "Food Allergies",
+        "description": "Main Food allergies."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/FoodAllergy"
+        },
+        "name": "Food Allergy",
+        "description": "Food Allergy profile"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AllergyIntolerance"
+          }
+        ],
+        "reference": {
+          "reference": "AllergyIntolerance/MyPeanutAllergy"
+        },
+        "name": "Example AllergyIntolerance - MyPeanutAllergy",
+        "exampleCanonical": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"
+      }
+    ],
     "page": {
       "nameUrl": "toc.html",
       "title": "Table of Contents",
@@ -337,6 +391,11 @@
           "nameUrl": "index.html",
           "title": "MyIG Home Page",
           "generation": "html"
+        },
+        {
+          "nameUrl": "intro.html",
+          "title": "Food Allergy - Introduction",
+          "generation": "markdown"
         },
         {
           "nameUrl": "changes.html",
