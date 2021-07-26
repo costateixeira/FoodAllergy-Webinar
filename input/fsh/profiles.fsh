@@ -7,6 +7,7 @@ Description: "Food Allergy profile"
 * clinicalStatus 1..1 MS
 * verificationStatus 1..1 MS
 * code 1..1 MS
+* code from FoodAllergyVS (extensible)
 * recordedDate MS
 * recorder MS
 * asserter MS
