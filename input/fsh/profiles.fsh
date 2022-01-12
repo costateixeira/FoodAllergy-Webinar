@@ -15,4 +15,4 @@ Description: "Food Allergy profile"
   * manifestation MS
   * exposureRoute MS
   * note MS
-  * extension contains http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty named certaintyy 0..1 MS 
+  * extension contains http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty named certainty 0..1 MS 
