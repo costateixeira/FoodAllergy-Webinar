@@ -1,9 +1,9 @@
 {
-  "url": "http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy",
+  "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy",
   "name": "FoodAllergyIG",
   "package-id": "example.fhir.uv.food-allergy",
   "ig-ver": "0.1.0-test",
-  "date": "Wed, 12 Jan, 2022 01:16:17 +0000",
+  "date": "Wed, 12 Jan, 2022 01:30:01 +0000",
   "errs": 2,
   "warnings": 2,
   "hints": 0,

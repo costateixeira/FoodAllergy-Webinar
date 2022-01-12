@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/myig/Questionnaire/hiv-case-report-questionnaire> a fhir:Questionnaire;
+<https://costateixeira.github.io/FoodAllergy-Webinar/Questionnaire/hiv-case-report-questionnaire> a fhir:Questionnaire;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "hiv-case-report-questionnaire"];
   fhir:Resource.language [ fhir:value "en"];
@@ -22,7 +22,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-01-12T01:16:17+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-01-12T01:30:01+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Quality of Life Workgroup"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -64,8 +64,8 @@
      fhir:Questionnaire.item.type [ fhir:value "choice" ];
      fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
      fhir:Questionnaire.item.answerValueSet [
-       fhir:value "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy";
-       fhir:link <http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy>
+       fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy";
+       fhir:link <https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy>
      ]
   ], [
      fhir:index 4;
@@ -74,8 +74,8 @@
      fhir:Questionnaire.item.type [ fhir:value "choice" ];
      fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
      fhir:Questionnaire.item.answerValueSet [
-       fhir:value "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus";
-       fhir:link <http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus>
+       fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus";
+       fhir:link <https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus>
      ]
   ], [
      fhir:index 5;
@@ -84,8 +84,8 @@
      fhir:Questionnaire.item.type [ fhir:value "choice" ];
      fhir:Questionnaire.item.repeats [ fhir:value "false"^^xsd:boolean ];
      fhir:Questionnaire.item.answerValueSet [
-       fhir:value "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus";
-       fhir:link <http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus>
+       fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus";
+       fhir:link <https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus>
      ]
   ], [
      fhir:index 6;
@@ -128,7 +128,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://somewhere.org/fhir/myig/Questionnaire/hiv-case-report-questionnaire.ttl> a owl:Ontology;
+<https://costateixeira.github.io/FoodAllergy-Webinar/Questionnaire/hiv-case-report-questionnaire.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

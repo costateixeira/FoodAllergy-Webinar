@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="food-allergy"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>
 </div></div>
   </text>
-  <url value="http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy"/>
+  <url value="https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy"/>
   <version value="0.1.0-test"/>
   <name value="FoodAllergyIG"/>
   <title value="Food Allergy Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2022-01-12T01:16:17+00:00"/>
+  <date value="2022-01-12T01:30:01+00:00"/>
   <publisher value="Quality of Life Workgroup"/>
   <contact>
     <telecom>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://somewhere.org/fhir/myig/history.html"/>
+        <valueString value="https://costateixeira.github.io/FoodAllergy-Webinar/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -255,7 +255,7 @@
         <reference value="AllergyIntolerance/MyPeanutAllergy"/>
       </reference>
       <name value="Example AllergyIntolerance - MyPeanutAllergy"/>
-      <exampleCanonical value="http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"/>
+      <exampleCanonical value="https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

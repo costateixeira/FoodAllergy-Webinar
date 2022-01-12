@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy",
+  "url": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy",
   "version": "0.1.0-test",
   "name": "FoodAllergy",
   "title": "Food Allergy",
   "status": "active",
-  "date": "2022-01-12T01:16:17+00:00",
+  "date": "2022-01-12T01:30:01+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -863,7 +863,7 @@
         "isSummary": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"
+          "valueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"
         },
         "mapping": [
           {
@@ -1827,7 +1827,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"
+          "valueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"
         }
       },
       {
