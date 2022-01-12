@@ -1,22 +1,30 @@
 ﻿FoodAllergyIG : Validation Results
 =========================================
 
-err = 0, warn = 2, info = 0
-IG Publisher Version: 1.1.77
-Generated Mon Jul 26 22:46:08 UTC 2021. FHIR version 4.0.1 for example.fhir.uv.food-allergy#0.1.0-test (canonical = http://somewhere.org/fhir/myig)
-
- Build Errors : 0 / 2 / 0
- /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 2
+err = 2, warn = 2, info = 0
+IG Publisher Version: 1.1.94
+Generated Wed Jan 12 01:16:39 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.food-allergy#0.1.0-test (canonical = http://somewhere.org/fhir/myig)
+ Build Errors : 1 / 2 / 0
+ /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy-clinstatus : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy-verifstatus : 0 / 0 / 1
  /github/workspace/input/foodallergy : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be example.fhir.uv.food-allergy
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-== /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS.json ==
-== /github/workspace/input/foodallergy.xml ==
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire-form.html: unexpected non-end of element null::div  at line 224 column 161
+== fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
+== fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire.json ==
+ERROR: Questionnaire.where(url = 'http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire'): Conformance resource /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire.json - the canonical URL (http://somewhere.org/fhir/myig/Questionnaire/hiv-case-report-questionnaire) does not match the URL (http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire)
+ERROR: /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire: URL Mismatch http://somewhere.org/fhir/myig/Questionnaire/hiv-case-report-questionnaire vs http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire
+== fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
+== fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
+== fsh-generated/resources/ValueSet-vs-food-allergy.json ==
+== fsh-generated/resources/ValueSet-vs-food-allergy-clinstatus.json ==
+== fsh-generated/resources/ValueSet-vs-food-allergy-verifstatus.json ==
+== input/foodallergy.xml ==

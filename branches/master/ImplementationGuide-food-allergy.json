@@ -11,7 +11,7 @@
   "title": "Food Allergy Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-26T22:45:56+00:00",
+  "date": "2022-01-12T01:16:17+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -333,6 +333,45 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-food-allergy"
+        },
+        "name": "Food Allergies",
+        "description": "Main Food allergies."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/hiv-case-report-questionnaire"
+        },
+        "name": "Food Allergy self-report",
+        "description": "Food Allergy self-report"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-food-allergy-clinstatus"
+        },
+        "name": "Food Allergy verification status",
+        "description": "Food Allergy verification status."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:logical"
           }
         ],
@@ -346,14 +385,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "AllergyIntolerance"
           }
         ],
         "reference": {
-          "reference": "ValueSet/FoodAllergyVS"
+          "reference": "AllergyIntolerance/MyPeanutAllergy"
         },
-        "name": "Food Allergies",
-        "description": "Main Food allergies."
+        "name": "Example AllergyIntolerance - MyPeanutAllergy",
+        "exampleCanonical": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"
       },
       {
         "extension": [
@@ -372,14 +411,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "AllergyIntolerance"
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "AllergyIntolerance/MyPeanutAllergy"
+          "reference": "ValueSet/vs-food-allergy-verifstatus"
         },
-        "name": "Example AllergyIntolerance - MyPeanutAllergy",
-        "exampleCanonical": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"
+        "name": "Food Allergy verification status",
+        "description": "Food Allergy verification status."
       }
     ],
     "page": {
