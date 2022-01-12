@@ -1,5 +1,12 @@
 [
   {
+    "id": "hiv-case-report-questionnaire",
+    "type": "Questionnaire",
+    "url": "http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyQuestionnaire"
+  },
+  {
     "id": "food-allergy",
     "type": "ImplementationGuide",
     "url": "http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy",
@@ -21,10 +28,24 @@
     "name": "FoodAllergyModel"
   },
   {
-    "id": "FoodAllergyVS",
+    "id": "vs-food-allergy",
     "type": "ValueSet",
-    "url": "http://somewhere.org/fhir/myig/ValueSet/FoodAllergyVS",
+    "url": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy",
     "version": "0.1.0-test",
     "name": "FoodAllergyVS"
+  },
+  {
+    "id": "vs-food-allergy-clinstatus",
+    "type": "ValueSet",
+    "url": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyClinicalStatusVS"
+  },
+  {
+    "id": "vs-food-allergy-verifstatus",
+    "type": "ValueSet",
+    "url": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyVerificationStatusVS"
   }
 ]
