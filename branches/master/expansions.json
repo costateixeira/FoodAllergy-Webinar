@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "96b375ec-b8d3-4cac-977f-dcfe33f71548",
+  "id" : "3c8a4456-e90b-414d-9879-d8b6cbd995b0",
   "meta" : {
-    "lastUpdated" : "2022-01-12T01:16:17.649+00:00"
+    "lastUpdated" : "2022-01-12T01:30:01.322+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy",
+    "fullUrl" : "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-food-allergy",
@@ -14,12 +14,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-91935009\"> </a><a href=\"http://snomed.info/id/91935009\">91935009</a></td><td>Allergy to peanut</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-48821000119104\"> </a><a href=\"http://snomed.info/id/48821000119104\">48821000119104</a></td><td>Allergy to tree nut</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782555009\"> </a><a href=\"http://snomed.info/id/782555009\">782555009</a></td><td>Allergy to cow's milk protein</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-213020009\"> </a><a href=\"http://snomed.info/id/213020009\">213020009</a></td><td>Allergy to egg protein</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-417532002\"> </a><a href=\"http://snomed.info/id/417532002\">417532002</a></td><td>Allergy to fish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-300913006\"> </a><a href=\"http://snomed.info/id/300913006\">300913006</a></td><td>Allergy to shellfish</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782594005\"> </a><a href=\"http://snomed.info/id/782594005\">782594005</a></td><td>Allergy to soy protein</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260167008\"> </a><a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>Sesame seed</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-21191000122102\"> </a><a href=\"http://snomed.info/id/21191000122102\">21191000122102</a></td><td>Allergy to mustard</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-712843002\"> </a><a href=\"http://snomed.info/id/712843002\">712843002</a></td><td>Allergy to celery</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782575000\"> </a><a href=\"http://snomed.info/id/782575000\">782575000</a></td><td>Allergy to lupine seed</td><td/></tr></table></div>"
       },
-      "url" : "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy",
+      "url" : "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy",
       "version" : "0.1.0-test",
       "name" : "FoodAllergyVS",
       "title" : "Food Allergies",
       "status" : "active",
-      "date" : "2022-01-12T01:16:17+00:00",
+      "date" : "2022-01-12T01:30:01+00:00",
       "publisher" : "Quality of Life Workgroup",
       "contact" : [{
         "telecom" : [{
@@ -35,8 +35,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fec813d2-1b52-4031-a5c3-ec83563e12bc",
-        "timestamp" : "2022-01-12T01:16:30+00:00",
+        "identifier" : "urn:uuid:eda2f5ef-a6fe-499c-afed-ef895222d420",
+        "timestamp" : "2022-01-12T01:30:09+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -109,7 +109,7 @@
     }
   },
   {
-    "fullUrl" : "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus",
+    "fullUrl" : "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-food-allergy-clinstatus",
@@ -117,12 +117,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-723506003\"> </a><a href=\"http://snomed.info/id/723506003\">723506003</a></td><td>Resolved</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-55561003\"> </a><a href=\"http://snomed.info/id/55561003\">55561003</a></td><td>Active</td><td/></tr></table></div>"
       },
-      "url" : "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus",
+      "url" : "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus",
       "version" : "0.1.0-test",
       "name" : "FoodAllergyClinicalStatusVS",
       "title" : "Food Allergy verification status",
       "status" : "active",
-      "date" : "2022-01-12T01:16:17+00:00",
+      "date" : "2022-01-12T01:30:01+00:00",
       "publisher" : "Quality of Life Workgroup",
       "contact" : [{
         "telecom" : [{
@@ -138,8 +138,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:210511d7-c023-4832-b5fa-0e795dbe11a7",
-        "timestamp" : "2022-01-12T01:16:32+00:00",
+        "identifier" : "urn:uuid:663daca3-27ea-4944-895e-f5d41a9d1be5",
+        "timestamp" : "2022-01-12T01:30:10+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -167,7 +167,7 @@
     }
   },
   {
-    "fullUrl" : "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus",
+    "fullUrl" : "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-food-allergy-verifstatus",
@@ -175,12 +175,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-410605003\"> </a><a href=\"http://snomed.info/id/410605003\">410605003</a></td><td>Confirmed present</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-415684004\"> </a><a href=\"http://snomed.info/id/415684004\">415684004</a></td><td>Suspected</td><td/></tr></table></div>"
       },
-      "url" : "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus",
+      "url" : "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus",
       "version" : "0.1.0-test",
       "name" : "FoodAllergyVerificationStatusVS",
       "title" : "Food Allergy verification status",
       "status" : "active",
-      "date" : "2022-01-12T01:16:17+00:00",
+      "date" : "2022-01-12T01:30:01+00:00",
       "publisher" : "Quality of Life Workgroup",
       "contact" : [{
         "telecom" : [{
@@ -196,8 +196,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:139299c2-8ac6-4a6f-99f6-e1b56c2f3edb",
-        "timestamp" : "2022-01-12T01:16:34+00:00",
+        "identifier" : "urn:uuid:c992ef8b-4749-4f98-a92e-bdbfbfa15a41",
+        "timestamp" : "2022-01-12T01:30:12+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

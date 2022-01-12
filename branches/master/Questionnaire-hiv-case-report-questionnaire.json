@@ -14,7 +14,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-01-12T01:16:17+00:00",
+  "date": "2022-01-12T01:30:01+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -59,21 +59,21 @@
       "text": "Substance that the person is allergic to",
       "type": "choice",
       "repeats": false,
-      "answerValueSet": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"
+      "answerValueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"
     },
     {
       "linkId": "clinicalStatus",
       "text": "Status of the allergy - active or resolved",
       "type": "choice",
       "repeats": false,
-      "answerValueSet": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus"
+      "answerValueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus"
     },
     {
       "linkId": "verificationStatus",
       "text": "Verification status of the allergy - confirmed or suspected or refuted",
       "type": "choice",
       "repeats": false,
-      "answerValueSet": "http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus"
+      "answerValueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus"
     },
     {
       "linkId": "recordedDate",

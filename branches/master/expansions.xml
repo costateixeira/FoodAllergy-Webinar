@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="96b375ec-b8d3-4cac-977f-dcfe33f71548"/>
+  <id value="3c8a4456-e90b-414d-9879-d8b6cbd995b0"/>
   <meta>
-    <lastUpdated value="2022-01-12T01:16:17.649+00:00"/>
+    <lastUpdated value="2022-01-12T01:30:01.322+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"/>
+    <fullUrl value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"/>
     <resource>
       <ValueSet>
         <id value="vs-food-allergy"/>
@@ -124,12 +124,12 @@
             </table>
           </div>
         </text>
-        <url value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"/>
+        <url value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"/>
         <version value="0.1.0-test"/>
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2022-01-12T01:16:17+00:00"/>
+        <date value="2022-01-12T01:30:01+00:00"/>
         <publisher value="Quality of Life Workgroup"/>
         <contact>
           <telecom>
@@ -145,8 +145,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fec813d2-1b52-4031-a5c3-ec83563e12bc"/>
-          <timestamp value="2022-01-12T01:16:30+00:00"/>
+          <identifier value="urn:uuid:eda2f5ef-a6fe-499c-afed-ef895222d420"/>
+          <timestamp value="2022-01-12T01:30:09+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -220,7 +220,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus"/>
+    <fullUrl value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus"/>
     <resource>
       <ValueSet>
         <id value="vs-food-allergy-clinstatus"/>
@@ -265,12 +265,12 @@
             </table>
           </div>
         </text>
-        <url value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-clinstatus"/>
+        <url value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus"/>
         <version value="0.1.0-test"/>
         <name value="FoodAllergyClinicalStatusVS"/>
         <title value="Food Allergy verification status"/>
         <status value="active"/>
-        <date value="2022-01-12T01:16:17+00:00"/>
+        <date value="2022-01-12T01:30:01+00:00"/>
         <publisher value="Quality of Life Workgroup"/>
         <contact>
           <telecom>
@@ -286,8 +286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:210511d7-c023-4832-b5fa-0e795dbe11a7"/>
-          <timestamp value="2022-01-12T01:16:32+00:00"/>
+          <identifier value="urn:uuid:663daca3-27ea-4944-895e-f5d41a9d1be5"/>
+          <timestamp value="2022-01-12T01:30:10+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -316,7 +316,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus"/>
+    <fullUrl value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus"/>
     <resource>
       <ValueSet>
         <id value="vs-food-allergy-verifstatus"/>
@@ -361,12 +361,12 @@
             </table>
           </div>
         </text>
-        <url value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy-verifstatus"/>
+        <url value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus"/>
         <version value="0.1.0-test"/>
         <name value="FoodAllergyVerificationStatusVS"/>
         <title value="Food Allergy verification status"/>
         <status value="active"/>
-        <date value="2022-01-12T01:16:17+00:00"/>
+        <date value="2022-01-12T01:30:01+00:00"/>
         <publisher value="Quality of Life Workgroup"/>
         <contact>
           <telecom>
@@ -382,8 +382,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:139299c2-8ac6-4a6f-99f6-e1b56c2f3edb"/>
-          <timestamp value="2022-01-12T01:16:34+00:00"/>
+          <identifier value="urn:uuid:c992ef8b-4749-4f98-a92e-bdbfbfa15a41"/>
+          <timestamp value="2022-01-12T01:30:12+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

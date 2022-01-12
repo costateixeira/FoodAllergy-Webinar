@@ -25,12 +25,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"/>
+  <url value="https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"/>
   <version value="0.1.0-test"/>
   <name value="FoodAllergy"/>
   <title value="Food Allergy"/>
   <status value="active"/>
-  <date value="2022-01-12T01:16:17+00:00"/>
+  <date value="2022-01-12T01:30:01+00:00"/>
   <publisher value="Quality of Life Workgroup"/>
   <contact>
     <telecom>
@@ -717,7 +717,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"/>
+        <valueSet value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -1494,7 +1494,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://somewhere.org/fhir/myig/ValueSet/vs-food-allergy"/>
+        <valueSet value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"/>
       </binding>
     </element>
     <element id="AllergyIntolerance.patient">

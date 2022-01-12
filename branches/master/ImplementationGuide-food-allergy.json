@@ -3,15 +3,15 @@
   "id": "food-allergy",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>\n</div></div>"
   },
-  "url": "http://somewhere.org/fhir/myig/ImplementationGuide/food-allergy",
+  "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy",
   "version": "0.1.0-test",
   "name": "FoodAllergyIG",
   "title": "Food Allergy Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-12T01:16:17+00:00",
+  "date": "2022-01-12T01:30:01+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://somewhere.org/fhir/myig/history.html"
+            "valueString": "https://costateixeira.github.io/FoodAllergy-Webinar/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -392,7 +392,7 @@
           "reference": "AllergyIntolerance/MyPeanutAllergy"
         },
         "name": "Example AllergyIntolerance - MyPeanutAllergy",
-        "exampleCanonical": "http://somewhere.org/fhir/myig/StructureDefinition/FoodAllergy"
+        "exampleCanonical": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"
       },
       {
         "extension": [
