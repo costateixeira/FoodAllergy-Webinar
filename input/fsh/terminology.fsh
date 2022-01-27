@@ -13,7 +13,7 @@ Description: "Food Allergy ValueSet"
 Title: "Food Allergy ValueSet"
 Usage: #inline
 * name = "FoodAllergyVS"
-* id = "foodallergyvs"
+* id = "vs-food-allergy-cont"
 * status = #active
 * insert VSCodeDef($SCT,91935009,Allergy to peanut)
 * insert VSCodeDef($SCT,48821000119104,Allergy to tree nut)
