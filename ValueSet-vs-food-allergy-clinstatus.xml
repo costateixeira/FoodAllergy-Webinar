@@ -8,9 +8,9 @@
   <url value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus"/>
   <version value="0.1.0-test"/>
   <name value="FoodAllergyClinicalStatusVS"/>
-  <title value="Food Allergy verification status"/>
+  <title value="Food Allergy clinical status"/>
   <status value="active"/>
-  <date value="2022-01-16T21:48:59+00:00"/>
+  <date value="2022-01-27T20:06:03+00:00"/>
   <publisher value="Quality of Life Workgroup"/>
   <contact>
     <telecom>
@@ -18,7 +18,7 @@
       <value value="http://example.org/committees/qualityoflife"/>
     </telecom>
   </contact>
-  <description value="Food Allergy verification status."/>
+  <description value="Food Allergy clinical status."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
