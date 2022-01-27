@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5aa7391d-c066-4595-9ef2-8b453d564023"/>
+  <id value="0dbea3ef-e16a-4d4b-83bc-2c90f78e8b89"/>
   <meta>
-    <lastUpdated value="2022-01-27T20:06:37.001+00:00"/>
+    <lastUpdated value="2022-01-27T20:20:41.984+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -52,7 +52,7 @@
         <name value="FoodAllergyVerificationStatusVS"/>
         <title value="Food Allergy verification status"/>
         <status value="active"/>
-        <date value="2022-01-27T20:06:37+00:00"/>
+        <date value="2022-01-27T20:20:41+00:00"/>
         <publisher value="Quality of Life Workgroup"/>
         <contact>
           <telecom>
@@ -68,8 +68,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f61ffd76-783f-4edb-bf4c-375764ccf347"/>
-          <timestamp value="2022-01-27T20:06:50+00:00"/>
+          <identifier value="urn:uuid:c098aa0e-2736-4c49-ba9c-0276db52db3f"/>
+          <timestamp value="2022-01-27T20:20:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -98,10 +98,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire#foodallergyvs"/>
+    <fullUrl value="http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire#vs-food-allergy-cont"/>
     <resource>
       <ValueSet>
-        <id value="foodallergyvs"/>
+        <id value="vs-food-allergy-cont"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -201,13 +201,13 @@
             </table>
           </div>
         </text>
-        <url value="http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire#foodallergyvs"/>
+        <url value="http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire#vs-food-allergy-cont"/>
         <version value="0.1.0-test"/>
         <name value="FoodAllergyVS"/>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:bd24260b-f726-415e-a931-66fcf18d1245"/>
-          <timestamp value="2022-01-27T20:06:51+00:00"/>
+          <identifier value="urn:uuid:c5225f8f-7783-4262-8aff-fc5456dd1bce"/>
+          <timestamp value="2022-01-27T20:20:58+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -330,8 +330,8 @@
         <name value="FoodAllergyVerificationStatusVS"/>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:cb77cf3d-55ca-4d68-a850-469e6a03e286"/>
-          <timestamp value="2022-01-27T20:06:54+00:00"/>
+          <identifier value="urn:uuid:f62576fa-cfa3-4396-877e-cbdaa33ca070"/>
+          <timestamp value="2022-01-27T20:20:59+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -409,8 +409,8 @@
         <name value="FoodAllergyVS"/>
         <status value="active"/>
         <expansion>
-          <identifier value="urn:uuid:10d3b5b8-2880-4088-bfd8-9b1a0310d721"/>
-          <timestamp value="2022-01-27T20:06:55+00:00"/>
+          <identifier value="urn:uuid:9a21122d-8833-440a-bf13-382f2d245688"/>
+          <timestamp value="2022-01-27T20:20:59+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -551,7 +551,7 @@
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2022-01-27T20:06:37+00:00"/>
+        <date value="2022-01-27T20:20:41+00:00"/>
         <publisher value="Quality of Life Workgroup"/>
         <contact>
           <telecom>
@@ -567,8 +567,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b7b1adbf-fc49-48c2-8979-3147d454e23a"/>
-          <timestamp value="2022-01-27T20:06:56+00:00"/>
+          <identifier value="urn:uuid:e97afdd4-b14f-4921-84dd-f3a9e9aac92b"/>
+          <timestamp value="2022-01-27T20:21:00+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -687,7 +687,7 @@
         <name value="FoodAllergyClinicalStatusVS"/>
         <title value="Food Allergy clinical status"/>
         <status value="active"/>
-        <date value="2022-01-27T20:06:37+00:00"/>
+        <date value="2022-01-27T20:20:41+00:00"/>
         <publisher value="Quality of Life Workgroup"/>
         <contact>
           <telecom>
@@ -703,8 +703,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:edd90b62-6288-4f76-bb64-05979b913732"/>
-          <timestamp value="2022-01-27T20:06:57+00:00"/>
+          <identifier value="urn:uuid:865a77f5-aca6-489b-8c84-244acd751e0d"/>
+          <timestamp value="2022-01-27T20:21:01+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
