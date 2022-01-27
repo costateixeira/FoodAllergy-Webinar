@@ -11,7 +11,7 @@
   "title": "Food Allergy Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-16T21:48:59+00:00",
+  "date": "2022-01-27T20:06:37+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -333,19 +333,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
-          }
-        ],
-        "reference": {
-          "reference": "Questionnaire/hiv-case-report-questionnaire"
-        },
-        "name": "Food Allergy self-report",
-        "description": "Food Allergy self-report"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:logical"
           }
         ],
@@ -359,6 +346,32 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-food-allergy-verifstatus"
+        },
+        "name": "Food Allergy verification status",
+        "description": "Food Allergy verification status."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/hiv-case-report-questionnaire"
+        },
+        "name": "Food Allergy self-report",
+        "description": "Food Allergy self-report"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "AllergyIntolerance"
           }
         ],
@@ -367,6 +380,19 @@
         },
         "name": "Example AllergyIntolerance - MyPeanutAllergy",
         "exampleCanonical": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/FoodAllergy"
+        },
+        "name": "Food Allergy",
+        "description": "Food Allergy profile"
       },
       {
         "extension": [
@@ -391,34 +417,8 @@
         "reference": {
           "reference": "ValueSet/vs-food-allergy-clinstatus"
         },
-        "name": "Food Allergy verification status",
-        "description": "Food Allergy verification status."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/FoodAllergy"
-        },
-        "name": "Food Allergy",
-        "description": "Food Allergy profile"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/vs-food-allergy-verifstatus"
-        },
-        "name": "Food Allergy verification status",
-        "description": "Food Allergy verification status."
+        "name": "Food Allergy clinical status",
+        "description": "Food Allergy clinical status."
       }
     ],
     "page": {

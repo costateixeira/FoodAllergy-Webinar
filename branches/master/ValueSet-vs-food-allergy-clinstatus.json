@@ -8,9 +8,9 @@
   "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus",
   "version": "0.1.0-test",
   "name": "FoodAllergyClinicalStatusVS",
-  "title": "Food Allergy verification status",
+  "title": "Food Allergy clinical status",
   "status": "active",
-  "date": "2022-01-16T21:48:59+00:00",
+  "date": "2022-01-27T20:06:37+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "Food Allergy verification status.",
+  "description": "Food Allergy clinical status.",
   "jurisdiction": [
     {
       "coding": [

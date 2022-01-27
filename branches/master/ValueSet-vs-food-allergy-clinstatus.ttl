@@ -15,9 +15,9 @@
   fhir:ValueSet.url [ fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus"];
   fhir:ValueSet.version [ fhir:value "0.1.0-test"];
   fhir:ValueSet.name [ fhir:value "FoodAllergyClinicalStatusVS"];
-  fhir:ValueSet.title [ fhir:value "Food Allergy verification status"];
+  fhir:ValueSet.title [ fhir:value "Food Allergy clinical status"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-01-16T21:48:59+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-01-27T20:06:37+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Quality of Life Workgroup"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "http://example.org/committees/qualityoflife" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "Food Allergy verification status."];
+  fhir:ValueSet.description [ fhir:value "Food Allergy clinical status."];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
