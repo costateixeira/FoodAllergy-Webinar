@@ -1,0 +1,101 @@
+﻿FoodAllergyIG : Validation Results
+=========================================
+
+err = 3, warn = 2, info = 0
+IG Publisher Version: 1.1.97
+Generated Thu Jan 27 20:06:26 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.food-allergy#0.1.0-test (canonical = https://costateixeira.github.io/FoodAllergy-Webinar)
+ Build Errors : 71 / 2 / 0
+ /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire : 3 / 0 / 4
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy-clinstatus : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy-verifstatus : 0 / 0 / 1
+ /github/workspace/input/foodallergy : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be example.fhir.uv.food-allergy
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire-form.html: unexpected non-end of element null::div  at line 224 column 161
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.json.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.ttl.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.xml.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire.json.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire.ttl.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-hiv-case-report-questionnaire.xml.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-definitions.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-examples.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-mappings.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.json.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.ttl.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.xml.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-definitions.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-examples.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-mappings.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.html#/html/body/div/div/div/div/div/p/a at Line 158, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.json.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.ttl.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.xml.html#/html/body/div/div/div/div/div/p/a at Line 162, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 176, column 8: The link 'ValueSet-hiv-case-report-questionnaire_foodallergyvs.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 183, column 8: The link 'ValueSet-hiv-case-report-questionnaire_foodallergyvs.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 190, column 8: The link 'ValueSet-hiv-case-report-questionnaire_foodallergyvs.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'ValueSet-hiv-case-report-questionnaire_foodallergyvs.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.html#/html/body/div/div/div/div/div/ul/li/a at Line 178, column 8: The link 'ValueSet-hiv-case-report-questionnaire_foodallergyvs.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_foodallergyvs.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8: The link 'ValueSet-hiv-case-report-questionnaire_foodallergyvs.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 176, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 183, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 190, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.html#/html/body/div/div/div/div/div/ul/li/a at Line 178, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-clinstatus-cont.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 176, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 183, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 190, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.html#/html/body/div/div/div/div/div/ul/li/a at Line 178, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8: The link 'ValueSet-hiv-case-report-questionnaire_vs-food-allergy-verifstatus-cont.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-clinstatus.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-clinstatus.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-clinstatus.json.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-clinstatus.ttl.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-clinstatus.xml.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-verifstatus.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-verifstatus.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-verifstatus.json.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-verifstatus.ttl.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy-verifstatus.xml.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy.html#/html/body/div/div/div/div/div/p/a at Line 154, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy.json.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy.ttl.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-vs-food-allergy.xml.html#/html/body/div/div/div/div/div/p/a at Line 156, column 256: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/div/div/p/a at Line 161, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/div/div/p/a at Line 161, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 161, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/intro.html#/html/body/div/div/div/div/div/p/a at Line 161, column 258: The link 'null' for "null" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/div/div/p/a at Line 161, column 258: The link 'null' for "null" cannot be resolved
+== fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
+== fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire.json ==
+ERROR: Questionnaire.where(url = 'http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire'): Conformance resource /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire.json - the canonical URL (https://costateixeira.github.io/FoodAllergy-Webinar/Questionnaire/hiv-case-report-questionnaire) does not match the URL (http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire)
+ERROR: Questionnaire/hiv-case-report-questionnaire: Questionnaire: dom-3: 'If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource' 'If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource' ( (unmatched: foodallergyvs,vs-food-allergy-verifstatus-cont,vs-food-allergy-clinstatus-cont))
+ERROR: /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire: URL Mismatch https://costateixeira.github.io/FoodAllergy-Webinar/Questionnaire/hiv-case-report-questionnaire vs http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire
+== fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
+== fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
+== fsh-generated/resources/ValueSet-vs-food-allergy.json ==
+== fsh-generated/resources/ValueSet-vs-food-allergy-clinstatus.json ==
+== fsh-generated/resources/ValueSet-vs-food-allergy-verifstatus.json ==
+== input/foodallergy.xml ==

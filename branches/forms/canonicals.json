@@ -1,0 +1,51 @@
+[
+  {
+    "id": "hiv-case-report-questionnaire",
+    "type": "Questionnaire",
+    "url": "http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyQuestionnaire"
+  },
+  {
+    "id": "food-allergy",
+    "type": "ImplementationGuide",
+    "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyIG"
+  },
+  {
+    "id": "FoodAllergy",
+    "type": "StructureDefinition",
+    "url": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy",
+    "version": "0.1.0-test",
+    "name": "FoodAllergy"
+  },
+  {
+    "id": "FoodAllergyModel",
+    "type": "StructureDefinition",
+    "url": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergyModel",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyModel"
+  },
+  {
+    "id": "vs-food-allergy",
+    "type": "ValueSet",
+    "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyVS"
+  },
+  {
+    "id": "vs-food-allergy-clinstatus",
+    "type": "ValueSet",
+    "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-clinstatus",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyClinicalStatusVS"
+  },
+  {
+    "id": "vs-food-allergy-verifstatus",
+    "type": "ValueSet",
+    "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy-verifstatus",
+    "version": "0.1.0-test",
+    "name": "FoodAllergyVerificationStatusVS"
+  }
+]

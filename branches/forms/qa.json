@@ -1,0 +1,12 @@
+{
+  "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy",
+  "name": "FoodAllergyIG",
+  "package-id": "example.fhir.uv.food-allergy",
+  "ig-ver": "0.1.0-test",
+  "date": "Thu, 27 Jan, 2022 20:06:03 +0000",
+  "errs": 3,
+  "warnings": 2,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "5.0.0-snapshot1 (3)"
+}
