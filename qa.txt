@@ -3,7 +3,7 @@
 
 err = 3, warn = 2, info = 0
 IG Publisher Version: 1.1.97
-Generated Thu Jan 27 20:06:26 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.food-allergy#0.1.0-test (canonical = https://costateixeira.github.io/FoodAllergy-Webinar)
+Generated Thu Jan 27 20:07:03 UTC 2022. FHIR version 4.0.1 for example.fhir.uv.food-allergy#0.1.0-test (canonical = https://costateixeira.github.io/FoodAllergy-Webinar)
  Build Errors : 71 / 2 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-hiv-case-report-questionnaire : 3 / 0 / 4
