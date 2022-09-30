@@ -11,7 +11,7 @@
   "title": "Food Allergy Implementation Guide",
   "status": "draft",
   "experimental": false,
-  "date": "2022-01-27T20:20:41+00:00",
+  "date": "2022-09-30T11:05:05+00:00",
   "publisher": "Quality of Life Workgroup",
   "contact": [
     {
@@ -38,6 +38,20 @@
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "higtools",
+      "uri": "http://hl7.org/fhir/tools/ImplementationGuide/hl7.fhir.uv.tools",
+      "packageId": "hl7.fhir.uv.tools",
+      "version": "current"
+    },
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "4.0.0"
+    }
   ],
   "definition": {
     "extension": [
@@ -326,9 +340,61 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-food-allergy-clinstatus"
+        },
+        "name": "Food Allergy clinical status",
+        "description": "Food Allergy clinical status."
+      },
       {
         "extension": [
           {
@@ -341,19 +407,6 @@
         },
         "name": "Food Allergy Logical Model",
         "description": "Food Allergy information model"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/vs-food-allergy-verifstatus"
-        },
-        "name": "Food Allergy verification status",
-        "description": "Food Allergy verification status."
       },
       {
         "extension": [
@@ -402,10 +455,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/vs-food-allergy"
+          "reference": "ValueSet/vs-food-allergy-verifstatus"
         },
-        "name": "Food Allergies",
-        "description": "Main Food allergies."
+        "name": "Food Allergy verification status",
+        "description": "Food Allergy verification status."
       },
       {
         "extension": [
@@ -415,28 +468,52 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/vs-food-allergy-clinstatus"
+          "reference": "ValueSet/vs-food-allergy"
         },
-        "name": "Food Allergy clinical status",
-        "description": "Food Allergy clinical status."
+        "name": "Food Allergies",
+        "description": "Main Food allergies."
       }
     ],
     "page": {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl": "toc.html"
+        }
+      ],
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
       "page": [
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "index.html"
+            }
+          ],
           "nameUrl": "index.html",
           "title": "MyIG Home Page",
           "generation": "html"
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "intro.html"
+            }
+          ],
           "nameUrl": "intro.html",
           "title": "Food Allergy - Introduction",
           "generation": "markdown"
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "changes.html"
+            }
+          ],
           "nameUrl": "changes.html",
           "title": "IG Change History",
           "generation": "html"
