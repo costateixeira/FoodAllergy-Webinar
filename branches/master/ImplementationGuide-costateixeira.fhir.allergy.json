@@ -3,9 +3,9 @@
   "id": "costateixeira.fhir.allergy",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/costateixeira.fhir.allergy</pre><div><p>Allergy (Patient Dossier)</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy</pre><div><p>Allergy (Patient Dossier)</p>\n</div></div>"
   },
-  "url": "https://costateixeira.github.io/costateixeira.fhir.allergy",
+  "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy",
   "version": "1.0.0",
   "name": "AllergyPatientDossier",
   "title": "Allergy (Patient Dossier)",
@@ -188,7 +188,7 @@
           },
           {
             "url": "value",
-            "valueString": "history.html"
+            "valueString": "https://costateixeira.github.io/costateixeira.fhir.allergy/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

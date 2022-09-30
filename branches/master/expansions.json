@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ebe725b1-1aca-4046-a804-de8347166bfc",
+  "id" : "a38ddd48-402b-450a-94eb-7e9ad9bcbf54",
   "meta" : {
-    "lastUpdated" : "2022-09-30T12:05:10.561+00:00"
+    "lastUpdated" : "2022-09-30T12:54:22.900+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "FoodAllergyClinicalStatusVS",
       "title" : "Food Allergy clinical status",
       "status" : "active",
-      "date" : "2022-09-30T12:05:10+00:00",
+      "date" : "2022-09-30T12:54:22+00:00",
       "publisher" : "costateixeira",
       "contact" : [{
         "name" : "costateixeira",
@@ -49,8 +49,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:13251e7c-94b9-43cc-a139-337b413c7787",
-        "timestamp" : "2022-09-30T12:05:23+00:00",
+        "identifier" : "urn:uuid:57e22f21-cc29-4c93-baff-13a8f9e55ddd",
+        "timestamp" : "2022-09-30T12:54:33+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -91,7 +91,7 @@
       "name" : "FoodAllergyVS",
       "title" : "Food Allergies",
       "status" : "active",
-      "date" : "2022-09-30T12:05:10+00:00",
+      "date" : "2022-09-30T12:54:22+00:00",
       "publisher" : "costateixeira",
       "contact" : [{
         "name" : "costateixeira",
@@ -121,8 +121,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d41c954b-69b8-4f9a-bc78-df8d24c7413b",
-        "timestamp" : "2022-09-30T12:05:23+00:00",
+        "identifier" : "urn:uuid:e405ba0d-bca9-4445-89cb-87280c67eade",
+        "timestamp" : "2022-09-30T12:54:33+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -208,7 +208,7 @@
       "name" : "FoodAllergyVerificationStatusVS",
       "title" : "Food Allergy verification status",
       "status" : "active",
-      "date" : "2022-09-30T12:05:10+00:00",
+      "date" : "2022-09-30T12:54:22+00:00",
       "publisher" : "costateixeira",
       "contact" : [{
         "name" : "costateixeira",
@@ -238,8 +238,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:98b753fd-c0a8-4746-91a6-bd90b6b65f3f",
-        "timestamp" : "2022-09-30T12:05:23+00:00",
+        "identifier" : "urn:uuid:e26ba706-669a-4afb-8d79-beaabce06c46",
+        "timestamp" : "2022-09-30T12:54:33+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

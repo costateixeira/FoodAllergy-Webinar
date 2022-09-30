@@ -1,12 +1,12 @@
 ﻿AllergyPatientDossier : Validation Results
 =========================================
 
-err = 2, warn = 5, info = 0
+err = 0, warn = 4, info = 0
 IG Publisher Version: 1.2.4
-Generated Fri Sep 30 12:08:04 UTC 2022. FHIR version 4.0.1 for costateixeira.fhir.allergy#1.0.0 (canonical = https://costateixeira.github.io/costateixeira.fhir.allergy)
- Build Errors : 41 / 2 / 0
+Generated Fri Sep 30 12:57:01 UTC 2022. FHIR version 4.0.1 for costateixeira.fhir.allergy#1.0.0 (canonical = https://costateixeira.github.io/costateixeira.fhir.allergy)
+ Build Errors : 41 / 1 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy : 0 / 1 / 1
@@ -14,7 +14,6 @@ Generated Fri Sep 30 12:08:04 UTC 2022. FHIR version 4.0.1 for costateixeira.fhi
  /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy-verifstatus : 0 / 1 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.change.history.html#/html/body/div/div/div/div/div/p/a at Line 159, column 233: The link 'null' for "null" cannot be resolved
 ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.html#/html/body/div/div/div/div/div/p/a at Line 154, column 233: The link 'null' for "null" cannot be resolved
@@ -59,8 +58,6 @@ ERROR: /github/workspace/output/intro.html#/html/body/div/div/div/div/div/p/a at
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/div/div/p/a at Line 161, column 233: The link 'null' for "null" cannot be resolved
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
 == fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy.json ==
-ERROR: ImplementationGuide.where(url = 'https://costateixeira.github.io/costateixeira.fhir.allergy'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy.json - the canonical URL (https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy) does not match the URL (https://costateixeira.github.io/costateixeira.fhir.allergy)
-ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy: URL Mismatch https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy vs https://costateixeira.github.io/costateixeira.fhir.allergy
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
 == fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
 == fsh-generated/resources/ValueSet-vs-food-allergy.json ==
