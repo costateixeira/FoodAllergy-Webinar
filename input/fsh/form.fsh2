@@ -7,7 +7,7 @@ RuleSet: Question(context, linkId, text, type, repeats)
 * {context}item[=].repeats = {repeats}
 
 
-Instance: hiv-case-report-questionnaire
+Instance: food-allergy-questionnaire
 //InstanceOf: sdc-questionnaire-extract
 InstanceOf: Questionnaire
 Description: "HIV Case Report Form"
