@@ -300,17 +300,6 @@
       <name value="PeanutAllergy"/>
       <exampleCanonical value="https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"/>
     </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Questionnaire"/>
-      </extension>
-      <reference>
-        <reference value="Questionnaire/hiv-case-report-questionnaire"/>
-      </reference>
-      <name value="HIV Case Report Form"/>
-      <description value="HIV Case Report Form"/>
-      <exampleBoolean value="false"/>
-    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>

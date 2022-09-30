@@ -446,20 +446,6 @@
         },
         "name": "PeanutAllergy",
         "exampleCanonical": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
-          }
-        ],
-        "reference": {
-          "reference": "Questionnaire/hiv-case-report-questionnaire"
-        },
-        "name": "HIV Case Report Form",
-        "description": "HIV Case Report Form",
-        "exampleBoolean": false
       }
     ],
     "page": {

@@ -437,20 +437,6 @@
          fhir:value "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy";
          fhir:link <https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy>
        ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/Questionnaire/hiv-case-report-questionnaire>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/hiv-case-report-questionnaire" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "HIV Case Report Form" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HIV Case Report Form" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [

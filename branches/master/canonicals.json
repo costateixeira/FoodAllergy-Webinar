@@ -1,12 +1,5 @@
 [
   {
-    "id": "hiv-case-report-questionnaire",
-    "type": "Questionnaire",
-    "url": "http://openhie.org/fhir/food-allergy/Questionnaire/food-allergy-questionnaire",
-    "version": "1.0.0",
-    "name": "FoodAllergyQuestionnaire"
-  },
-  {
     "id": "costateixeira.fhir.allergy",
     "type": "ImplementationGuide",
     "url": "https://costateixeira.github.io/allergy",
