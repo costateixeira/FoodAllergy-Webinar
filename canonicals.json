@@ -2,7 +2,7 @@
   {
     "id": "costateixeira.fhir.allergy",
     "type": "ImplementationGuide",
-    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy",
     "version": "1.0.0",
     "name": "AllergyPatientDossier"
   },

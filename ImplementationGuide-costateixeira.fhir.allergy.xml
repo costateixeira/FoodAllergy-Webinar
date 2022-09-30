@@ -3,10 +3,10 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="costateixeira.fhir.allergy"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/costateixeira.fhir.allergy</pre><div><p>Allergy (Patient Dossier)</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy</pre><div><p>Allergy (Patient Dossier)</p>
 </div></div>
   </text>
-  <url value="https://costateixeira.github.io/costateixeira.fhir.allergy"/>
+  <url value="https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy"/>
   <version value="1.0.0"/>
   <name value="AllergyPatientDossier"/>
   <title value="Allergy (Patient Dossier)"/>
@@ -128,7 +128,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="https://costateixeira.github.io/costateixeira.fhir.allergy/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
