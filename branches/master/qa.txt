@@ -1,12 +1,12 @@
 ﻿AllergyPatientDossier : Validation Results
 =========================================
 
-err = 3, warn = 5, info = 0
+err = 2, warn = 5, info = 0
 IG Publisher Version: 1.2.4
-Generated Fri Sep 30 11:51:57 UTC 2022. FHIR version 4.0.1 for costateixeira.fhir.allergy#1.0.0 (canonical = https://costateixeira.github.io/allergy)
+Generated Fri Sep 30 12:08:04 UTC 2022. FHIR version 4.0.1 for costateixeira.fhir.allergy#1.0.0 (canonical = https://costateixeira.github.io/costateixeira.fhir.allergy)
  Build Errors : 41 / 2 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-vs-food-allergy : 0 / 1 / 1
@@ -59,9 +59,8 @@ ERROR: /github/workspace/output/intro.html#/html/body/div/div/div/div/div/p/a at
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/div/div/p/a at Line 161, column 233: The link 'null' for "null" cannot be resolved
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
 == fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy.json ==
-ERROR: ImplementationGuide.where(url = 'https://costateixeira.github.io/allergy'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy.json - the canonical URL (https://costateixeira.github.io/allergy/ImplementationGuide/costateixeira.fhir.allergy) does not match the URL (https://costateixeira.github.io/allergy)
-ERROR: ImplementationGuide.url: Resource id/url mismatch: costateixeira.fhir.allergy/https://costateixeira.github.io/allergy
-ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy: URL Mismatch https://costateixeira.github.io/allergy/ImplementationGuide/costateixeira.fhir.allergy vs https://costateixeira.github.io/allergy
+ERROR: ImplementationGuide.where(url = 'https://costateixeira.github.io/costateixeira.fhir.allergy'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy.json - the canonical URL (https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy) does not match the URL (https://costateixeira.github.io/costateixeira.fhir.allergy)
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy: URL Mismatch https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy vs https://costateixeira.github.io/costateixeira.fhir.allergy
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
 == fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
 == fsh-generated/resources/ValueSet-vs-food-allergy.json ==

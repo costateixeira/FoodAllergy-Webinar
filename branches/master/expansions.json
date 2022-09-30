@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ea90e633-6297-48c3-a2ad-3040ff0f1b16",
+  "id" : "ebe725b1-1aca-4046-a804-de8347166bfc",
   "meta" : {
-    "lastUpdated" : "2022-09-30T11:49:08.760+00:00"
+    "lastUpdated" : "2022-09-30T12:05:10.561+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-clinstatus",
+    "fullUrl" : "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-clinstatus",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-food-allergy-clinstatus",
@@ -14,12 +14,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-723506003\"> </a>  <a href=\"http://snomed.info/id/723506003\">723506003</a></td><td>http://snomed.info/sct</td><td>Resolved</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-55561003\"> </a>  <a href=\"http://snomed.info/id/55561003\">55561003</a></td><td>http://snomed.info/sct</td><td>Active</td></tr></table></div>"
       },
-      "url" : "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-clinstatus",
+      "url" : "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-clinstatus",
       "version" : "1.0.0",
       "name" : "FoodAllergyClinicalStatusVS",
       "title" : "Food Allergy clinical status",
       "status" : "active",
-      "date" : "2022-09-30T11:49:08+00:00",
+      "date" : "2022-09-30T12:05:10+00:00",
       "publisher" : "costateixeira",
       "contact" : [{
         "name" : "costateixeira",
@@ -49,8 +49,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b3195d0c-76ba-4c07-a6b0-34c58b08bc97",
-        "timestamp" : "2022-09-30T11:49:23+00:00",
+        "identifier" : "urn:uuid:13251e7c-94b9-43cc-a139-337b413c7787",
+        "timestamp" : "2022-09-30T12:05:23+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -78,7 +78,7 @@
     }
   },
   {
-    "fullUrl" : "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy",
+    "fullUrl" : "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-food-allergy",
@@ -86,12 +86,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-91935009\"> </a>  <a href=\"http://snomed.info/id/91935009\">91935009</a></td><td>http://snomed.info/sct</td><td>Allergy to peanut</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-48821000119104\"> </a>  <a href=\"http://snomed.info/id/48821000119104\">48821000119104</a></td><td>http://snomed.info/sct</td><td>Allergy to tree nut</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782555009\"> </a>  <a href=\"http://snomed.info/id/782555009\">782555009</a></td><td>http://snomed.info/sct</td><td>Allergy to cow's milk protein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-213020009\"> </a>  <a href=\"http://snomed.info/id/213020009\">213020009</a></td><td>http://snomed.info/sct</td><td>Allergy to egg protein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-417532002\"> </a>  <a href=\"http://snomed.info/id/417532002\">417532002</a></td><td>http://snomed.info/sct</td><td>Allergy to fish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-300913006\"> </a>  <a href=\"http://snomed.info/id/300913006\">300913006</a></td><td>http://snomed.info/sct</td><td>Allergy to shellfish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782594005\"> </a>  <a href=\"http://snomed.info/id/782594005\">782594005</a></td><td>http://snomed.info/sct</td><td>Allergy to soy protein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260167008\"> </a>  <a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>http://snomed.info/sct</td><td>Sesame seed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-21191000122102\"> </a>  <a href=\"http://snomed.info/id/21191000122102\">21191000122102</a></td><td>http://snomed.info/sct</td><td>Allergy to mustard</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-712843002\"> </a>  <a href=\"http://snomed.info/id/712843002\">712843002</a></td><td>http://snomed.info/sct</td><td>Allergy to celery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782575000\"> </a>  <a href=\"http://snomed.info/id/782575000\">782575000</a></td><td>http://snomed.info/sct</td><td>Allergy to lupine seed</td></tr></table></div>"
       },
-      "url" : "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy",
+      "url" : "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy",
       "version" : "1.0.0",
       "name" : "FoodAllergyVS",
       "title" : "Food Allergies",
       "status" : "active",
-      "date" : "2022-09-30T11:49:08+00:00",
+      "date" : "2022-09-30T12:05:10+00:00",
       "publisher" : "costateixeira",
       "contact" : [{
         "name" : "costateixeira",
@@ -121,8 +121,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:668ed2a0-88f4-4813-918c-78ec525705f8",
-        "timestamp" : "2022-09-30T11:49:23+00:00",
+        "identifier" : "urn:uuid:d41c954b-69b8-4f9a-bc78-df8d24c7413b",
+        "timestamp" : "2022-09-30T12:05:23+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -195,7 +195,7 @@
     }
   },
   {
-    "fullUrl" : "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-verifstatus",
+    "fullUrl" : "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-verifstatus",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-food-allergy-verifstatus",
@@ -203,12 +203,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-410605003\"> </a>  <a href=\"http://snomed.info/id/410605003\">410605003</a></td><td>http://snomed.info/sct</td><td>Confirmed present</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-415684004\"> </a>  <a href=\"http://snomed.info/id/415684004\">415684004</a></td><td>http://snomed.info/sct</td><td>Suspected</td></tr></table></div>"
       },
-      "url" : "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-verifstatus",
+      "url" : "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-verifstatus",
       "version" : "1.0.0",
       "name" : "FoodAllergyVerificationStatusVS",
       "title" : "Food Allergy verification status",
       "status" : "active",
-      "date" : "2022-09-30T11:49:08+00:00",
+      "date" : "2022-09-30T12:05:10+00:00",
       "publisher" : "costateixeira",
       "contact" : [{
         "name" : "costateixeira",
@@ -238,8 +238,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7cbc7aa9-4e12-4e54-9fcf-f775eb5ea823",
-        "timestamp" : "2022-09-30T11:49:23+00:00",
+        "identifier" : "urn:uuid:98b753fd-c0a8-4746-91a6-bd90b6b65f3f",
+        "timestamp" : "2022-09-30T12:05:23+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

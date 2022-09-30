@@ -3,10 +3,10 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="costateixeira.fhir.allergy"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/allergy</pre><div><p>Allergy (Patient Dossier)</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/costateixeira.fhir.allergy</pre><div><p>Allergy (Patient Dossier)</p>
 </div></div>
   </text>
-  <url value="https://costateixeira.github.io/allergy"/>
+  <url value="https://costateixeira.github.io/costateixeira.fhir.allergy"/>
   <version value="1.0.0"/>
   <name value="AllergyPatientDossier"/>
   <title value="Allergy (Patient Dossier)"/>
@@ -298,7 +298,7 @@
         <reference value="AllergyIntolerance/MyPeanutAllergy"/>
       </reference>
       <name value="PeanutAllergy"/>
-      <exampleCanonical value="https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"/>
+      <exampleCanonical value="https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

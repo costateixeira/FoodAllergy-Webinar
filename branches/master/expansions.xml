@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ea90e633-6297-48c3-a2ad-3040ff0f1b16"/>
+  <id value="ebe725b1-1aca-4046-a804-de8347166bfc"/>
   <meta>
-    <lastUpdated value="2022-09-30T11:49:08.760+00:00"/>
+    <lastUpdated value="2022-09-30T12:05:10.561+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-clinstatus"/>
+    <fullUrl value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-clinstatus"/>
     <resource>
       <ValueSet>
         <id value="vs-food-allergy-clinstatus"/>
@@ -47,12 +47,12 @@
             </table>
           </div>
         </text>
-        <url value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-clinstatus"/>
+        <url value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-clinstatus"/>
         <version value="1.0.0"/>
         <name value="FoodAllergyClinicalStatusVS"/>
         <title value="Food Allergy clinical status"/>
         <status value="active"/>
-        <date value="2022-09-30T11:49:08+00:00"/>
+        <date value="2022-09-30T12:05:10+00:00"/>
         <publisher value="costateixeira"/>
         <contact>
           <name value="costateixeira"/>
@@ -82,8 +82,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b3195d0c-76ba-4c07-a6b0-34c58b08bc97"/>
-          <timestamp value="2022-09-30T11:49:23+00:00"/>
+          <identifier value="urn:uuid:13251e7c-94b9-43cc-a139-337b413c7787"/>
+          <timestamp value="2022-09-30T12:05:23+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -112,7 +112,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"/>
+    <fullUrl value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy"/>
     <resource>
       <ValueSet>
         <id value="vs-food-allergy"/>
@@ -224,12 +224,12 @@
             </table>
           </div>
         </text>
-        <url value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"/>
+        <url value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy"/>
         <version value="1.0.0"/>
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2022-09-30T11:49:08+00:00"/>
+        <date value="2022-09-30T12:05:10+00:00"/>
         <publisher value="costateixeira"/>
         <contact>
           <name value="costateixeira"/>
@@ -259,8 +259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:668ed2a0-88f4-4813-918c-78ec525705f8"/>
-          <timestamp value="2022-09-30T11:49:23+00:00"/>
+          <identifier value="urn:uuid:d41c954b-69b8-4f9a-bc78-df8d24c7413b"/>
+          <timestamp value="2022-09-30T12:05:23+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -334,7 +334,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-verifstatus"/>
+    <fullUrl value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-verifstatus"/>
     <resource>
       <ValueSet>
         <id value="vs-food-allergy-verifstatus"/>
@@ -374,12 +374,12 @@
             </table>
           </div>
         </text>
-        <url value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-verifstatus"/>
+        <url value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-verifstatus"/>
         <version value="1.0.0"/>
         <name value="FoodAllergyVerificationStatusVS"/>
         <title value="Food Allergy verification status"/>
         <status value="active"/>
-        <date value="2022-09-30T11:49:08+00:00"/>
+        <date value="2022-09-30T12:05:10+00:00"/>
         <publisher value="costateixeira"/>
         <contact>
           <name value="costateixeira"/>
@@ -409,8 +409,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7cbc7aa9-4e12-4e54-9fcf-f775eb5ea823"/>
-          <timestamp value="2022-09-30T11:49:23+00:00"/>
+          <identifier value="urn:uuid:98b753fd-c0a8-4746-91a6-bd90b6b65f3f"/>
+          <timestamp value="2022-09-30T12:05:23+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

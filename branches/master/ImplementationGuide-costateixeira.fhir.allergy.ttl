@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://costateixeira.github.io/allergy/ImplementationGuide/costateixeira.fhir.allergy> a fhir:ImplementationGuide;
+<https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "costateixeira.fhir.allergy"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/allergy</pre><div><p>Allergy (Patient Dossier)</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/costateixeira.fhir.allergy</pre><div><p>Allergy (Patient Dossier)</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://costateixeira.github.io/allergy"];
+  fhir:ImplementationGuide.url [ fhir:value "https://costateixeira.github.io/costateixeira.fhir.allergy"];
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "AllergyPatientDossier"];
   fhir:ImplementationGuide.title [ fhir:value "Allergy (Patient Dossier)"];
@@ -359,7 +359,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy>;
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/FoodAllergy" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergy" ];
@@ -373,7 +373,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergyModel>;
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergyModel>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/FoodAllergyModel" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergy Logical Model" ];
@@ -387,7 +387,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-clinstatus>;
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-clinstatus>;
          fhir:Reference.reference [ fhir:value "ValueSet/vs-food-allergy-clinstatus" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergy clinical status" ];
@@ -401,7 +401,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy>;
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy>;
          fhir:Reference.reference [ fhir:value "ValueSet/vs-food-allergy" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergies" ];
@@ -415,7 +415,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-verifstatus>;
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-verifstatus>;
          fhir:Reference.reference [ fhir:value "ValueSet/vs-food-allergy-verifstatus" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergy verification status" ];
@@ -429,13 +429,13 @@
          fhir:Extension.valueString [ fhir:value "AllergyIntolerance" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://costateixeira.github.io/allergy/AllergyIntolerance/MyPeanutAllergy>;
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/AllergyIntolerance/MyPeanutAllergy>;
          fhir:Reference.reference [ fhir:value "AllergyIntolerance/MyPeanutAllergy" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PeanutAllergy" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy";
-         fhir:link <https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy>
+         fhir:value "https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy";
+         fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -544,7 +544,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://costateixeira.github.io/allergy/ImplementationGuide/costateixeira.fhir.allergy.ttl> a owl:Ontology;
+<https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

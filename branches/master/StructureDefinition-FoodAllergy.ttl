@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy> a fhir:StructureDefinition;
+<https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "FoodAllergy"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"];
+  fhir:StructureDefinition.url [ fhir:value "https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy"];
   fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "FoodAllergy"];
   fhir:StructureDefinition.title [ fhir:value "Food Allergy"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-09-30T11:49:08+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-09-30T12:05:10+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "costateixeira"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -969,8 +969,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy";
-           fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy>
+           fhir:value "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy";
+           fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -1994,8 +1994,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy";
-           fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy>
+           fhir:value "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy";
+           fhir:link <https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy>
          ]
        ]
      ], [
@@ -2073,7 +2073,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy.ttl> a owl:Ontology;
+<https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

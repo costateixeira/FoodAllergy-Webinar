@@ -7,7 +7,7 @@
   "profiles": {
     "AllergyIntolerance": [
       {
-        "url": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy",
+        "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy",
         "title": "Food Allergy"
       }
     ]
