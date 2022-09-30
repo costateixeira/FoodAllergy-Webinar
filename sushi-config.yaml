@@ -1,6 +1,6 @@
 id: costateixeira.fhir.allergy
 canonical: https://costateixeira.github.io/costateixeira.fhir.allergy
-url: https://costateixeira.github.io/costateixeira.fhir.allergy
+url: https://costateixeira.github.io/costateixeira.fhir.allergy/ImplementationGuide/costateixeira.fhir.allergy
 name: Allergy (Patient Dossier)
 title: "Allergy (Patient Dossier)"
 description: Allergy (Patient Dossier)
