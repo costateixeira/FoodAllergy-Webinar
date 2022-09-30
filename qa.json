@@ -1,10 +1,10 @@
 {
-  "url": "https://costateixeira.github.io/allergy",
+  "url": "https://costateixeira.github.io/costateixeira.fhir.allergy",
   "name": "AllergyPatientDossier",
   "package-id": "costateixeira.fhir.allergy",
   "ig-ver": "1.0.0",
-  "date": "Fri, 30 Sep, 2022 11:49:08 +0000",
-  "errs": 3,
+  "date": "Fri, 30 Sep, 2022 12:05:10 +0000",
+  "errs": 2,
   "warnings": 5,
   "hints": 0,
   "version": "4.0.1",

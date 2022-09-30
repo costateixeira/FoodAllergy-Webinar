@@ -2,42 +2,42 @@
   {
     "id": "costateixeira.fhir.allergy",
     "type": "ImplementationGuide",
-    "url": "https://costateixeira.github.io/allergy",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy",
     "version": "1.0.0",
     "name": "AllergyPatientDossier"
   },
   {
     "id": "FoodAllergy",
     "type": "StructureDefinition",
-    "url": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy",
     "version": "1.0.0",
     "name": "FoodAllergy"
   },
   {
     "id": "FoodAllergyModel",
     "type": "StructureDefinition",
-    "url": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergyModel",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergyModel",
     "version": "1.0.0",
     "name": "FoodAllergyModel"
   },
   {
     "id": "vs-food-allergy",
     "type": "ValueSet",
-    "url": "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy",
     "version": "1.0.0",
     "name": "FoodAllergyVS"
   },
   {
     "id": "vs-food-allergy-clinstatus",
     "type": "ValueSet",
-    "url": "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-clinstatus",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-clinstatus",
     "version": "1.0.0",
     "name": "FoodAllergyClinicalStatusVS"
   },
   {
     "id": "vs-food-allergy-verifstatus",
     "type": "ValueSet",
-    "url": "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy-verifstatus",
+    "url": "https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy-verifstatus",
     "version": "1.0.0",
     "name": "FoodAllergyVerificationStatusVS"
   }

@@ -25,12 +25,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"/>
+  <url value="https://costateixeira.github.io/costateixeira.fhir.allergy/StructureDefinition/FoodAllergy"/>
   <version value="1.0.0"/>
   <name value="FoodAllergy"/>
   <title value="Food Allergy"/>
   <status value="active"/>
-  <date value="2022-09-30T11:49:08+00:00"/>
+  <date value="2022-09-30T12:05:10+00:00"/>
   <publisher value="costateixeira"/>
   <contact>
     <name value="costateixeira"/>
@@ -731,7 +731,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"/>
+        <valueSet value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -1508,7 +1508,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"/>
+        <valueSet value="https://costateixeira.github.io/costateixeira.fhir.allergy/ValueSet/vs-food-allergy"/>
       </binding>
     </element>
     <element id="AllergyIntolerance.patient">
