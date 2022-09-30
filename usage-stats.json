@@ -1,13 +1,13 @@
 {
-  "package": "example.fhir.uv.food-allergy",
-  "version": "0.1.0-test",
+  "package": "costateixeira.fhir.allergy",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "001",
+  "jurisdiction": "BE",
   "extensions": [],
   "profiles": {
     "AllergyIntolerance": [
       {
-        "url": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy",
+        "url": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy",
         "title": "Food Allergy"
       }
     ]

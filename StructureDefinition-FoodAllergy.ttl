@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy> a fhir:StructureDefinition;
+<https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "FoodAllergy"];
   fhir:DomainResource.text [
@@ -21,19 +21,33 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"];
-  fhir:StructureDefinition.version [ fhir:value "0.1.0-test"];
+  fhir:StructureDefinition.url [ fhir:value "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"];
+  fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "FoodAllergy"];
   fhir:StructureDefinition.title [ fhir:value "Food Allergy"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-09-30T11:05:05+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "Quality of Life Workgroup"];
+  fhir:StructureDefinition.date [ fhir:value "2022-09-30T11:40:26+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "costateixeira"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "costateixeira" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://example.org/committees/qualityoflife" ]
+       fhir:ContactPoint.value [ fhir:value "https://www.ehealth.fgov.be/standards/fhir" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "somewhere@gmail.com" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Message Structure eHealth" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "somewhere@gmail.com" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "Food Allergy profile"];
@@ -41,8 +55,9 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "BE" ];
+       fhir:Coding.display [ fhir:value "Belgium" ]
      ]
   ];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
@@ -954,8 +969,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy";
-           fhir:link <https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy>
+           fhir:value "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy";
+           fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -1979,8 +1994,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy";
-           fhir:link <https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy>
+           fhir:value "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy";
+           fhir:link <https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy>
          ]
        ]
      ], [
@@ -2058,7 +2073,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy.ttl> a owl:Ontology;
+<https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

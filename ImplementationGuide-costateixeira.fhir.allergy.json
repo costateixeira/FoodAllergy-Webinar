@@ -1,40 +1,55 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "food-allergy",
+  "id": "costateixeira.fhir.allergy",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FoodAllergyIG</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy</pre><div><p>An Implementation Guide for Food Allergy reporting and exchange</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyPatientDossier</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/allergy</pre><div><p>Allergy (Patient Dossier)</p>\n</div></div>"
   },
-  "url": "https://costateixeira.github.io/FoodAllergy-Webinar/ImplementationGuide/food-allergy",
-  "version": "0.1.0-test",
-  "name": "FoodAllergyIG",
-  "title": "Food Allergy Implementation Guide",
-  "status": "draft",
-  "experimental": false,
-  "date": "2022-09-30T11:05:05+00:00",
-  "publisher": "Quality of Life Workgroup",
+  "url": "https://costateixeira.github.io/allergy",
+  "version": "1.0.0",
+  "name": "AllergyPatientDossier",
+  "title": "Allergy (Patient Dossier)",
+  "status": "active",
+  "date": "2020-02-26",
+  "publisher": "costateixeira",
   "contact": [
     {
+      "name": "costateixeira",
       "telecom": [
         {
           "system": "url",
-          "value": "http://example.org/committees/qualityoflife"
+          "value": "https://www.ehealth.fgov.be/standards/fhir"
+        },
+        {
+          "system": "email",
+          "value": "somewhere@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Message Structure eHealth",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "somewhere@gmail.com",
+          "use": "work"
         }
       ]
     }
   ],
-  "description": "An Implementation Guide for Food Allergy reporting and exchange",
+  "description": "Allergy (Patient Dossier)",
   "jurisdiction": [
     {
       "coding": [
         {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "system": "urn:iso:std:iso:3166",
+          "code": "BE",
+          "display": "Belgium"
         }
       ]
     }
   ],
-  "packageId": "example.fhir.uv.food-allergy",
+  "packageId": "costateixeira.fhir.allergy",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -51,6 +66,12 @@
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
       "version": "4.0.0"
+    },
+    {
+      "id": "hl7_fhir_uv_sdc",
+      "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+      "packageId": "hl7.fhir.uv.sdc",
+      "version": "3.0.0"
     }
   ],
   "definition": {
@@ -63,7 +84,7 @@
           },
           {
             "url": "value",
-            "valueString": "2019+"
+            "valueString": "2021+"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -76,46 +97,7 @@
           },
           {
             "url": "value",
-            "valueString": "CI Build"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "path-binary"
-          },
-          {
-            "url": "value",
-            "valueString": "input\\cql"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "path-liquid"
-          },
-          {
-            "url": "value",
-            "valueString": "templates\\liquid"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "autoload-resources"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
+            "valueString": "STU1"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -206,7 +188,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://costateixeira.github.io/FoodAllergy-Webinar/history.html"
+            "valueString": "history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -386,14 +368,15 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
-          "reference": "ValueSet/vs-food-allergy-clinstatus"
+          "reference": "StructureDefinition/FoodAllergy"
         },
-        "name": "Food Allergy clinical status",
-        "description": "Food Allergy clinical status."
+        "name": "Food Allergy",
+        "description": "Food Allergy profile",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -406,46 +389,8 @@
           "reference": "StructureDefinition/FoodAllergyModel"
         },
         "name": "Food Allergy Logical Model",
-        "description": "Food Allergy information model"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
-          }
-        ],
-        "reference": {
-          "reference": "Questionnaire/hiv-case-report-questionnaire"
-        },
-        "name": "Food Allergy self-report",
-        "description": "Food Allergy self-report"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "AllergyIntolerance"
-          }
-        ],
-        "reference": {
-          "reference": "AllergyIntolerance/MyPeanutAllergy"
-        },
-        "name": "Example AllergyIntolerance - MyPeanutAllergy",
-        "exampleCanonical": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/FoodAllergy"
-        },
-        "name": "Food Allergy",
-        "description": "Food Allergy profile"
+        "description": "Food Allergy information model",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -455,10 +400,11 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/vs-food-allergy-verifstatus"
+          "reference": "ValueSet/vs-food-allergy-clinstatus"
         },
-        "name": "Food Allergy verification status",
-        "description": "Food Allergy verification status."
+        "name": "Food Allergy clinical status",
+        "description": "Food Allergy clinical status.",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -471,7 +417,49 @@
           "reference": "ValueSet/vs-food-allergy"
         },
         "name": "Food Allergies",
-        "description": "Main Food allergies."
+        "description": "Main Food allergies.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-food-allergy-verifstatus"
+        },
+        "name": "Food Allergy verification status",
+        "description": "Food Allergy verification status.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AllergyIntolerance"
+          }
+        ],
+        "reference": {
+          "reference": "AllergyIntolerance/MyPeanutAllergy"
+        },
+        "name": "PeanutAllergy",
+        "exampleCanonical": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/hiv-case-report-questionnaire"
+        },
+        "name": "HIV Case Report Form",
+        "description": "HIV Case Report Form",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -493,7 +481,18 @@
             }
           ],
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "Home",
+          "generation": "html"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "changes.html"
+            }
+          ],
+          "nameUrl": "changes.html",
+          "title": "Changes",
           "generation": "html"
         },
         {
@@ -504,31 +503,12 @@
             }
           ],
           "nameUrl": "intro.html",
-          "title": "Food Allergy - Introduction",
+          "title": "Intro",
           "generation": "markdown"
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl": "changes.html"
-            }
-          ],
-          "nameUrl": "changes.html",
-          "title": "IG Change History",
-          "generation": "html"
         }
       ]
     },
     "parameter": [
-      {
-        "code": "path-resource",
-        "value": "input\\history"
-      },
-      {
-        "code": "path-resource",
-        "value": "input\\scenarios"
-      },
       {
         "code": "path-resource",
         "value": "input/capabilities"
@@ -560,6 +540,10 @@
       {
         "code": "path-resource",
         "value": "input/vocabulary"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/maps"
       },
       {
         "code": "path-resource",

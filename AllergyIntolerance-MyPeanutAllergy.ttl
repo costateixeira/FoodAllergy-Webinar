@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://costateixeira.github.io/FoodAllergy-Webinar/AllergyIntolerance/MyPeanutAllergy> a fhir:AllergyIntolerance;
+<https://costateixeira.github.io/allergy/AllergyIntolerance/MyPeanutAllergy> a fhir:AllergyIntolerance;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "MyPeanutAllergy"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy";
+       fhir:value "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy";
        fhir:index 0;
-       fhir:link <https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy>
+       fhir:link <https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy>
      ]
   ];
   fhir:DomainResource.text [
@@ -65,7 +65,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://costateixeira.github.io/FoodAllergy-Webinar/AllergyIntolerance/MyPeanutAllergy.ttl> a owl:Ontology;
+<https://costateixeira.github.io/allergy/AllergyIntolerance/MyPeanutAllergy.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
