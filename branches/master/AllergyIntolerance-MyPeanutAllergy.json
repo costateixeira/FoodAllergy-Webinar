@@ -3,7 +3,7 @@
   "id": "MyPeanutAllergy",
   "meta": {
     "profile": [
-      "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"
+      "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"
     ]
   },
   "text": {

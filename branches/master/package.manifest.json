@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0-test",
+  "version": "1.0.0",
   "fhirVersion": [
     "4.0.1"
   ],
-  "date": "20220930110416",
-  "name": "example.fhir.uv.food-allergy"
+  "date": "20220930113950",
+  "name": "costateixeira.fhir.allergy"
 }

@@ -15,19 +15,34 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy",
-  "version": "0.1.0-test",
+  "url": "https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy",
+  "version": "1.0.0",
   "name": "FoodAllergy",
   "title": "Food Allergy",
   "status": "active",
-  "date": "2022-09-30T11:05:05+00:00",
-  "publisher": "Quality of Life Workgroup",
+  "date": "2022-09-30T11:40:26+00:00",
+  "publisher": "costateixeira",
   "contact": [
     {
+      "name": "costateixeira",
       "telecom": [
         {
           "system": "url",
-          "value": "http://example.org/committees/qualityoflife"
+          "value": "https://www.ehealth.fgov.be/standards/fhir"
+        },
+        {
+          "system": "email",
+          "value": "somewhere@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Message Structure eHealth",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "somewhere@gmail.com",
+          "use": "work"
         }
       ]
     }
@@ -37,8 +52,9 @@
     {
       "coding": [
         {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "system": "urn:iso:std:iso:3166",
+          "code": "BE",
+          "display": "Belgium"
         }
       ]
     }
@@ -863,7 +879,7 @@
         "isSummary": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"
+          "valueSet": "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"
         },
         "mapping": [
           {
@@ -1827,7 +1843,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"
+          "valueSet": "https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"
         }
       },
       {

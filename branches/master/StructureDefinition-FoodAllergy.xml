@@ -25,24 +25,38 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="https://costateixeira.github.io/FoodAllergy-Webinar/StructureDefinition/FoodAllergy"/>
-  <version value="0.1.0-test"/>
+  <url value="https://costateixeira.github.io/allergy/StructureDefinition/FoodAllergy"/>
+  <version value="1.0.0"/>
   <name value="FoodAllergy"/>
   <title value="Food Allergy"/>
   <status value="active"/>
-  <date value="2022-09-30T11:05:05+00:00"/>
-  <publisher value="Quality of Life Workgroup"/>
+  <date value="2022-09-30T11:40:26+00:00"/>
+  <publisher value="costateixeira"/>
   <contact>
+    <name value="costateixeira"/>
     <telecom>
       <system value="url"/>
-      <value value="http://example.org/committees/qualityoflife"/>
+      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="somewhere@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message Structure eHealth"/>
+    <telecom>
+      <system value="email"/>
+      <value value="somewhere@gmail.com"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <description value="Food Allergy profile"/>
   <jurisdiction>
     <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
     </coding>
   </jurisdiction>
   <fhirVersion value="4.0.1"/>
@@ -717,7 +731,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"/>
+        <valueSet value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -1494,7 +1508,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="https://costateixeira.github.io/FoodAllergy-Webinar/ValueSet/vs-food-allergy"/>
+        <valueSet value="https://costateixeira.github.io/allergy/ValueSet/vs-food-allergy"/>
       </binding>
     </element>
     <element id="AllergyIntolerance.patient">
