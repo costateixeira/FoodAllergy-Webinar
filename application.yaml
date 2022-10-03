@@ -71,7 +71,7 @@ hapi:
     #        name: swiss.mednet.fhir
     #        version: 0.8.0
     #      example not from registry
-      costateixeira.fhir.allergy#1.0.0:
+      costateixeira-fhir-allergy-1-0-0:
         url: https://costateixeira.github.io/FoodAllergy-Webinar/package.tgz
         name: costateixeira.fhir.allergy
         version: 1.0.0
