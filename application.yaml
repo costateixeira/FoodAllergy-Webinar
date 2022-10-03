@@ -64,14 +64,14 @@ hapi:
     ### enable to set the Server URL
     #    server_address: http://hapi.fhir.org/baseR4
     #    defer_indexing_for_codesystems_of_size: 101
-    #    install_transitive_ig_dependencies: true
+    install_transitive_ig_dependencies: false
     implementationguides:
     ###    example from registry (packages.fhir.org)
     #      swiss:
     #        name: swiss.mednet.fhir
     #        version: 0.8.0
     #      example not from registry
-      costateixeira.fhir.allergy#1.0.0:
+      costateixeira-fhir-allergy-1-0-0:
         url: https://costateixeira.github.io/FoodAllergy-Webinar/package.tgz
         name: costateixeira.fhir.allergy
         version: 1.0.0
