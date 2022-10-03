@@ -3,7 +3,7 @@
   "name": "AllergyPatientDossier",
   "package-id": "costateixeira.fhir.allergy",
   "ig-ver": "1.0.0",
-  "date": "Fri, 30 Sep, 2022 12:54:22 +0000",
+  "date": "Mon, 03 Oct, 2022 12:00:06 +0000",
   "errs": 0,
   "warnings": 4,
   "hints": 0,

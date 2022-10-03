@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a38ddd48-402b-450a-94eb-7e9ad9bcbf54"/>
+  <id value="5c56838c-8b90-4ed0-a131-bec782e88d71"/>
   <meta>
-    <lastUpdated value="2022-09-30T12:54:22.900+00:00"/>
+    <lastUpdated value="2022-10-03T12:00:06.290+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -52,7 +52,7 @@
         <name value="FoodAllergyClinicalStatusVS"/>
         <title value="Food Allergy clinical status"/>
         <status value="active"/>
-        <date value="2022-09-30T12:54:22+00:00"/>
+        <date value="2022-10-03T12:00:06+00:00"/>
         <publisher value="costateixeira"/>
         <contact>
           <name value="costateixeira"/>
@@ -82,8 +82,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:57e22f21-cc29-4c93-baff-13a8f9e55ddd"/>
-          <timestamp value="2022-09-30T12:54:33+00:00"/>
+          <identifier value="urn:uuid:97751c5e-ec49-4644-b6bc-604fd3ff8487"/>
+          <timestamp value="2022-10-03T12:00:21+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -229,7 +229,7 @@
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2022-09-30T12:54:22+00:00"/>
+        <date value="2022-10-03T12:00:06+00:00"/>
         <publisher value="costateixeira"/>
         <contact>
           <name value="costateixeira"/>
@@ -259,8 +259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e405ba0d-bca9-4445-89cb-87280c67eade"/>
-          <timestamp value="2022-09-30T12:54:33+00:00"/>
+          <identifier value="urn:uuid:f048e7b5-2a82-44bc-b13c-5ab56a35a59e"/>
+          <timestamp value="2022-10-03T12:00:21+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -379,7 +379,7 @@
         <name value="FoodAllergyVerificationStatusVS"/>
         <title value="Food Allergy verification status"/>
         <status value="active"/>
-        <date value="2022-09-30T12:54:22+00:00"/>
+        <date value="2022-10-03T12:00:06+00:00"/>
         <publisher value="costateixeira"/>
         <contact>
           <name value="costateixeira"/>
@@ -409,8 +409,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e26ba706-669a-4afb-8d79-beaabce06c46"/>
-          <timestamp value="2022-09-30T12:54:33+00:00"/>
+          <identifier value="urn:uuid:05e9f3e4-9016-4abf-86bc-d2ec734737c7"/>
+          <timestamp value="2022-10-03T12:00:21+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
