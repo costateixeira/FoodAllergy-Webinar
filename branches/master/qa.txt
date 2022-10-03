@@ -3,7 +3,7 @@
 
 err = 0, warn = 4, info = 0
 IG Publisher Version: 1.2.4
-Generated Mon Oct 03 12:02:57 UTC 2022. FHIR version 4.0.1 for costateixeira.fhir.allergy#1.0.0 (canonical = https://costateixeira.github.io/costateixeira.fhir.allergy)
+Generated Mon Oct 03 16:42:56 UTC 2022. FHIR version 4.0.1 for costateixeira.fhir.allergy#1.0.0 (canonical = https://costateixeira.github.io/costateixeira.fhir.allergy)
  Build Errors : 41 / 1 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-costateixeira.fhir.allergy : 0 / 0 / 1

@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "FoodAllergyModel"];
   fhir:StructureDefinition.title [ fhir:value "Food Allergy Logical Model"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-03T12:00:06+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-03T16:40:09+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "costateixeira"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
